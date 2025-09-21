@@ -1,0 +1,3289 @@
+{
+    "name": "AMD",
+    "description": "Age-related Macular Degeneration OCT Dataset",
+    "tensorImageSize": "2D",
+    "modality": {
+        "0": "OCT"
+    },
+    "labels": {
+        "0": "Background",
+        "1": "Drusen",
+        "2": "Scar",
+        "3": "Liquid"
+    },
+    "numTraining": 795,
+    "numTest": 89,
+    "training": [
+        {
+            "image": "./imagesTr/AMD_0000_0000.nii.gz",
+            "label": "./labelsTr/AMD_0000.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0001_0000.nii.gz",
+            "label": "./labelsTr/AMD_0001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0002_0000.nii.gz",
+            "label": "./labelsTr/AMD_0002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0003_0000.nii.gz",
+            "label": "./labelsTr/AMD_0003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0004_0000.nii.gz",
+            "label": "./labelsTr/AMD_0004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0005_0000.nii.gz",
+            "label": "./labelsTr/AMD_0005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0006_0000.nii.gz",
+            "label": "./labelsTr/AMD_0006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0007_0000.nii.gz",
+            "label": "./labelsTr/AMD_0007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0008_0000.nii.gz",
+            "label": "./labelsTr/AMD_0008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0009_0000.nii.gz",
+            "label": "./labelsTr/AMD_0009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0010_0000.nii.gz",
+            "label": "./labelsTr/AMD_0010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0011_0000.nii.gz",
+            "label": "./labelsTr/AMD_0011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0012_0000.nii.gz",
+            "label": "./labelsTr/AMD_0012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0013_0000.nii.gz",
+            "label": "./labelsTr/AMD_0013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0014_0000.nii.gz",
+            "label": "./labelsTr/AMD_0014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0015_0000.nii.gz",
+            "label": "./labelsTr/AMD_0015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0016_0000.nii.gz",
+            "label": "./labelsTr/AMD_0016.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0017_0000.nii.gz",
+            "label": "./labelsTr/AMD_0017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0018_0000.nii.gz",
+            "label": "./labelsTr/AMD_0018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0019_0000.nii.gz",
+            "label": "./labelsTr/AMD_0019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0020_0000.nii.gz",
+            "label": "./labelsTr/AMD_0020.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0021_0000.nii.gz",
+            "label": "./labelsTr/AMD_0021.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0022_0000.nii.gz",
+            "label": "./labelsTr/AMD_0022.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0023_0000.nii.gz",
+            "label": "./labelsTr/AMD_0023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0024_0000.nii.gz",
+            "label": "./labelsTr/AMD_0024.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0025_0000.nii.gz",
+            "label": "./labelsTr/AMD_0025.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0026_0000.nii.gz",
+            "label": "./labelsTr/AMD_0026.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0027_0000.nii.gz",
+            "label": "./labelsTr/AMD_0027.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0028_0000.nii.gz",
+            "label": "./labelsTr/AMD_0028.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0029_0000.nii.gz",
+            "label": "./labelsTr/AMD_0029.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0030_0000.nii.gz",
+            "label": "./labelsTr/AMD_0030.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0031_0000.nii.gz",
+            "label": "./labelsTr/AMD_0031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0032_0000.nii.gz",
+            "label": "./labelsTr/AMD_0032.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0033_0000.nii.gz",
+            "label": "./labelsTr/AMD_0033.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0034_0000.nii.gz",
+            "label": "./labelsTr/AMD_0034.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0035_0000.nii.gz",
+            "label": "./labelsTr/AMD_0035.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0036_0000.nii.gz",
+            "label": "./labelsTr/AMD_0036.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0037_0000.nii.gz",
+            "label": "./labelsTr/AMD_0037.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0038_0000.nii.gz",
+            "label": "./labelsTr/AMD_0038.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0039_0000.nii.gz",
+            "label": "./labelsTr/AMD_0039.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0040_0000.nii.gz",
+            "label": "./labelsTr/AMD_0040.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0041_0000.nii.gz",
+            "label": "./labelsTr/AMD_0041.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0042_0000.nii.gz",
+            "label": "./labelsTr/AMD_0042.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0043_0000.nii.gz",
+            "label": "./labelsTr/AMD_0043.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0044_0000.nii.gz",
+            "label": "./labelsTr/AMD_0044.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0045_0000.nii.gz",
+            "label": "./labelsTr/AMD_0045.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0046_0000.nii.gz",
+            "label": "./labelsTr/AMD_0046.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0047_0000.nii.gz",
+            "label": "./labelsTr/AMD_0047.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0048_0000.nii.gz",
+            "label": "./labelsTr/AMD_0048.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0049_0000.nii.gz",
+            "label": "./labelsTr/AMD_0049.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0050_0000.nii.gz",
+            "label": "./labelsTr/AMD_0050.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0051_0000.nii.gz",
+            "label": "./labelsTr/AMD_0051.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0052_0000.nii.gz",
+            "label": "./labelsTr/AMD_0052.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0053_0000.nii.gz",
+            "label": "./labelsTr/AMD_0053.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0054_0000.nii.gz",
+            "label": "./labelsTr/AMD_0054.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0055_0000.nii.gz",
+            "label": "./labelsTr/AMD_0055.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0056_0000.nii.gz",
+            "label": "./labelsTr/AMD_0056.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0057_0000.nii.gz",
+            "label": "./labelsTr/AMD_0057.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0058_0000.nii.gz",
+            "label": "./labelsTr/AMD_0058.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0059_0000.nii.gz",
+            "label": "./labelsTr/AMD_0059.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0060_0000.nii.gz",
+            "label": "./labelsTr/AMD_0060.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0061_0000.nii.gz",
+            "label": "./labelsTr/AMD_0061.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0062_0000.nii.gz",
+            "label": "./labelsTr/AMD_0062.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0063_0000.nii.gz",
+            "label": "./labelsTr/AMD_0063.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0064_0000.nii.gz",
+            "label": "./labelsTr/AMD_0064.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0065_0000.nii.gz",
+            "label": "./labelsTr/AMD_0065.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0066_0000.nii.gz",
+            "label": "./labelsTr/AMD_0066.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0067_0000.nii.gz",
+            "label": "./labelsTr/AMD_0067.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0068_0000.nii.gz",
+            "label": "./labelsTr/AMD_0068.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0069_0000.nii.gz",
+            "label": "./labelsTr/AMD_0069.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0070_0000.nii.gz",
+            "label": "./labelsTr/AMD_0070.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0071_0000.nii.gz",
+            "label": "./labelsTr/AMD_0071.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0072_0000.nii.gz",
+            "label": "./labelsTr/AMD_0072.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0073_0000.nii.gz",
+            "label": "./labelsTr/AMD_0073.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0074_0000.nii.gz",
+            "label": "./labelsTr/AMD_0074.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0075_0000.nii.gz",
+            "label": "./labelsTr/AMD_0075.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0076_0000.nii.gz",
+            "label": "./labelsTr/AMD_0076.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0077_0000.nii.gz",
+            "label": "./labelsTr/AMD_0077.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0078_0000.nii.gz",
+            "label": "./labelsTr/AMD_0078.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0079_0000.nii.gz",
+            "label": "./labelsTr/AMD_0079.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0080_0000.nii.gz",
+            "label": "./labelsTr/AMD_0080.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0081_0000.nii.gz",
+            "label": "./labelsTr/AMD_0081.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0082_0000.nii.gz",
+            "label": "./labelsTr/AMD_0082.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0083_0000.nii.gz",
+            "label": "./labelsTr/AMD_0083.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0084_0000.nii.gz",
+            "label": "./labelsTr/AMD_0084.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0085_0000.nii.gz",
+            "label": "./labelsTr/AMD_0085.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0086_0000.nii.gz",
+            "label": "./labelsTr/AMD_0086.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0087_0000.nii.gz",
+            "label": "./labelsTr/AMD_0087.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0088_0000.nii.gz",
+            "label": "./labelsTr/AMD_0088.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0089_0000.nii.gz",
+            "label": "./labelsTr/AMD_0089.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0090_0000.nii.gz",
+            "label": "./labelsTr/AMD_0090.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0091_0000.nii.gz",
+            "label": "./labelsTr/AMD_0091.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0092_0000.nii.gz",
+            "label": "./labelsTr/AMD_0092.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0093_0000.nii.gz",
+            "label": "./labelsTr/AMD_0093.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0094_0000.nii.gz",
+            "label": "./labelsTr/AMD_0094.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0095_0000.nii.gz",
+            "label": "./labelsTr/AMD_0095.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0096_0000.nii.gz",
+            "label": "./labelsTr/AMD_0096.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0097_0000.nii.gz",
+            "label": "./labelsTr/AMD_0097.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0098_0000.nii.gz",
+            "label": "./labelsTr/AMD_0098.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0099_0000.nii.gz",
+            "label": "./labelsTr/AMD_0099.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0100_0000.nii.gz",
+            "label": "./labelsTr/AMD_0100.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0101_0000.nii.gz",
+            "label": "./labelsTr/AMD_0101.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0102_0000.nii.gz",
+            "label": "./labelsTr/AMD_0102.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0103_0000.nii.gz",
+            "label": "./labelsTr/AMD_0103.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0104_0000.nii.gz",
+            "label": "./labelsTr/AMD_0104.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0105_0000.nii.gz",
+            "label": "./labelsTr/AMD_0105.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0106_0000.nii.gz",
+            "label": "./labelsTr/AMD_0106.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0107_0000.nii.gz",
+            "label": "./labelsTr/AMD_0107.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0108_0000.nii.gz",
+            "label": "./labelsTr/AMD_0108.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0109_0000.nii.gz",
+            "label": "./labelsTr/AMD_0109.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0110_0000.nii.gz",
+            "label": "./labelsTr/AMD_0110.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0111_0000.nii.gz",
+            "label": "./labelsTr/AMD_0111.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0112_0000.nii.gz",
+            "label": "./labelsTr/AMD_0112.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0113_0000.nii.gz",
+            "label": "./labelsTr/AMD_0113.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0114_0000.nii.gz",
+            "label": "./labelsTr/AMD_0114.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0115_0000.nii.gz",
+            "label": "./labelsTr/AMD_0115.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0116_0000.nii.gz",
+            "label": "./labelsTr/AMD_0116.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0117_0000.nii.gz",
+            "label": "./labelsTr/AMD_0117.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0118_0000.nii.gz",
+            "label": "./labelsTr/AMD_0118.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0119_0000.nii.gz",
+            "label": "./labelsTr/AMD_0119.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0120_0000.nii.gz",
+            "label": "./labelsTr/AMD_0120.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0121_0000.nii.gz",
+            "label": "./labelsTr/AMD_0121.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0122_0000.nii.gz",
+            "label": "./labelsTr/AMD_0122.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0123_0000.nii.gz",
+            "label": "./labelsTr/AMD_0123.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0124_0000.nii.gz",
+            "label": "./labelsTr/AMD_0124.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0125_0000.nii.gz",
+            "label": "./labelsTr/AMD_0125.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0126_0000.nii.gz",
+            "label": "./labelsTr/AMD_0126.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0127_0000.nii.gz",
+            "label": "./labelsTr/AMD_0127.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0128_0000.nii.gz",
+            "label": "./labelsTr/AMD_0128.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0129_0000.nii.gz",
+            "label": "./labelsTr/AMD_0129.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0130_0000.nii.gz",
+            "label": "./labelsTr/AMD_0130.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0131_0000.nii.gz",
+            "label": "./labelsTr/AMD_0131.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0132_0000.nii.gz",
+            "label": "./labelsTr/AMD_0132.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0133_0000.nii.gz",
+            "label": "./labelsTr/AMD_0133.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0134_0000.nii.gz",
+            "label": "./labelsTr/AMD_0134.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0135_0000.nii.gz",
+            "label": "./labelsTr/AMD_0135.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0136_0000.nii.gz",
+            "label": "./labelsTr/AMD_0136.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0137_0000.nii.gz",
+            "label": "./labelsTr/AMD_0137.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0138_0000.nii.gz",
+            "label": "./labelsTr/AMD_0138.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0139_0000.nii.gz",
+            "label": "./labelsTr/AMD_0139.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0140_0000.nii.gz",
+            "label": "./labelsTr/AMD_0140.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0141_0000.nii.gz",
+            "label": "./labelsTr/AMD_0141.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0142_0000.nii.gz",
+            "label": "./labelsTr/AMD_0142.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0143_0000.nii.gz",
+            "label": "./labelsTr/AMD_0143.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0144_0000.nii.gz",
+            "label": "./labelsTr/AMD_0144.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0145_0000.nii.gz",
+            "label": "./labelsTr/AMD_0145.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0146_0000.nii.gz",
+            "label": "./labelsTr/AMD_0146.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0147_0000.nii.gz",
+            "label": "./labelsTr/AMD_0147.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0148_0000.nii.gz",
+            "label": "./labelsTr/AMD_0148.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0149_0000.nii.gz",
+            "label": "./labelsTr/AMD_0149.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0150_0000.nii.gz",
+            "label": "./labelsTr/AMD_0150.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0151_0000.nii.gz",
+            "label": "./labelsTr/AMD_0151.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0152_0000.nii.gz",
+            "label": "./labelsTr/AMD_0152.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0153_0000.nii.gz",
+            "label": "./labelsTr/AMD_0153.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0154_0000.nii.gz",
+            "label": "./labelsTr/AMD_0154.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0155_0000.nii.gz",
+            "label": "./labelsTr/AMD_0155.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0156_0000.nii.gz",
+            "label": "./labelsTr/AMD_0156.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0157_0000.nii.gz",
+            "label": "./labelsTr/AMD_0157.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0158_0000.nii.gz",
+            "label": "./labelsTr/AMD_0158.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0159_0000.nii.gz",
+            "label": "./labelsTr/AMD_0159.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0160_0000.nii.gz",
+            "label": "./labelsTr/AMD_0160.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0161_0000.nii.gz",
+            "label": "./labelsTr/AMD_0161.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0162_0000.nii.gz",
+            "label": "./labelsTr/AMD_0162.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0163_0000.nii.gz",
+            "label": "./labelsTr/AMD_0163.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0164_0000.nii.gz",
+            "label": "./labelsTr/AMD_0164.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0165_0000.nii.gz",
+            "label": "./labelsTr/AMD_0165.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0166_0000.nii.gz",
+            "label": "./labelsTr/AMD_0166.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0167_0000.nii.gz",
+            "label": "./labelsTr/AMD_0167.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0168_0000.nii.gz",
+            "label": "./labelsTr/AMD_0168.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0169_0000.nii.gz",
+            "label": "./labelsTr/AMD_0169.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0170_0000.nii.gz",
+            "label": "./labelsTr/AMD_0170.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0171_0000.nii.gz",
+            "label": "./labelsTr/AMD_0171.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0172_0000.nii.gz",
+            "label": "./labelsTr/AMD_0172.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0173_0000.nii.gz",
+            "label": "./labelsTr/AMD_0173.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0174_0000.nii.gz",
+            "label": "./labelsTr/AMD_0174.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0175_0000.nii.gz",
+            "label": "./labelsTr/AMD_0175.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0176_0000.nii.gz",
+            "label": "./labelsTr/AMD_0176.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0177_0000.nii.gz",
+            "label": "./labelsTr/AMD_0177.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0178_0000.nii.gz",
+            "label": "./labelsTr/AMD_0178.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0179_0000.nii.gz",
+            "label": "./labelsTr/AMD_0179.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0180_0000.nii.gz",
+            "label": "./labelsTr/AMD_0180.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0181_0000.nii.gz",
+            "label": "./labelsTr/AMD_0181.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0182_0000.nii.gz",
+            "label": "./labelsTr/AMD_0182.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0183_0000.nii.gz",
+            "label": "./labelsTr/AMD_0183.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0184_0000.nii.gz",
+            "label": "./labelsTr/AMD_0184.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0185_0000.nii.gz",
+            "label": "./labelsTr/AMD_0185.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0186_0000.nii.gz",
+            "label": "./labelsTr/AMD_0186.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0187_0000.nii.gz",
+            "label": "./labelsTr/AMD_0187.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0188_0000.nii.gz",
+            "label": "./labelsTr/AMD_0188.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0189_0000.nii.gz",
+            "label": "./labelsTr/AMD_0189.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0190_0000.nii.gz",
+            "label": "./labelsTr/AMD_0190.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0191_0000.nii.gz",
+            "label": "./labelsTr/AMD_0191.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0192_0000.nii.gz",
+            "label": "./labelsTr/AMD_0192.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0193_0000.nii.gz",
+            "label": "./labelsTr/AMD_0193.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0194_0000.nii.gz",
+            "label": "./labelsTr/AMD_0194.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0195_0000.nii.gz",
+            "label": "./labelsTr/AMD_0195.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0196_0000.nii.gz",
+            "label": "./labelsTr/AMD_0196.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0197_0000.nii.gz",
+            "label": "./labelsTr/AMD_0197.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0198_0000.nii.gz",
+            "label": "./labelsTr/AMD_0198.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0199_0000.nii.gz",
+            "label": "./labelsTr/AMD_0199.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0200_0000.nii.gz",
+            "label": "./labelsTr/AMD_0200.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0201_0000.nii.gz",
+            "label": "./labelsTr/AMD_0201.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0202_0000.nii.gz",
+            "label": "./labelsTr/AMD_0202.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0203_0000.nii.gz",
+            "label": "./labelsTr/AMD_0203.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0204_0000.nii.gz",
+            "label": "./labelsTr/AMD_0204.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0205_0000.nii.gz",
+            "label": "./labelsTr/AMD_0205.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0206_0000.nii.gz",
+            "label": "./labelsTr/AMD_0206.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0207_0000.nii.gz",
+            "label": "./labelsTr/AMD_0207.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0208_0000.nii.gz",
+            "label": "./labelsTr/AMD_0208.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0209_0000.nii.gz",
+            "label": "./labelsTr/AMD_0209.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0210_0000.nii.gz",
+            "label": "./labelsTr/AMD_0210.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0211_0000.nii.gz",
+            "label": "./labelsTr/AMD_0211.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0212_0000.nii.gz",
+            "label": "./labelsTr/AMD_0212.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0213_0000.nii.gz",
+            "label": "./labelsTr/AMD_0213.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0214_0000.nii.gz",
+            "label": "./labelsTr/AMD_0214.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0215_0000.nii.gz",
+            "label": "./labelsTr/AMD_0215.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0216_0000.nii.gz",
+            "label": "./labelsTr/AMD_0216.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0217_0000.nii.gz",
+            "label": "./labelsTr/AMD_0217.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0218_0000.nii.gz",
+            "label": "./labelsTr/AMD_0218.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0219_0000.nii.gz",
+            "label": "./labelsTr/AMD_0219.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0220_0000.nii.gz",
+            "label": "./labelsTr/AMD_0220.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0221_0000.nii.gz",
+            "label": "./labelsTr/AMD_0221.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0222_0000.nii.gz",
+            "label": "./labelsTr/AMD_0222.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0223_0000.nii.gz",
+            "label": "./labelsTr/AMD_0223.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0224_0000.nii.gz",
+            "label": "./labelsTr/AMD_0224.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0225_0000.nii.gz",
+            "label": "./labelsTr/AMD_0225.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0226_0000.nii.gz",
+            "label": "./labelsTr/AMD_0226.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0227_0000.nii.gz",
+            "label": "./labelsTr/AMD_0227.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0228_0000.nii.gz",
+            "label": "./labelsTr/AMD_0228.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0229_0000.nii.gz",
+            "label": "./labelsTr/AMD_0229.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0230_0000.nii.gz",
+            "label": "./labelsTr/AMD_0230.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0231_0000.nii.gz",
+            "label": "./labelsTr/AMD_0231.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0232_0000.nii.gz",
+            "label": "./labelsTr/AMD_0232.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0233_0000.nii.gz",
+            "label": "./labelsTr/AMD_0233.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0234_0000.nii.gz",
+            "label": "./labelsTr/AMD_0234.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0235_0000.nii.gz",
+            "label": "./labelsTr/AMD_0235.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0236_0000.nii.gz",
+            "label": "./labelsTr/AMD_0236.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0237_0000.nii.gz",
+            "label": "./labelsTr/AMD_0237.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0238_0000.nii.gz",
+            "label": "./labelsTr/AMD_0238.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0239_0000.nii.gz",
+            "label": "./labelsTr/AMD_0239.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0240_0000.nii.gz",
+            "label": "./labelsTr/AMD_0240.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0241_0000.nii.gz",
+            "label": "./labelsTr/AMD_0241.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0242_0000.nii.gz",
+            "label": "./labelsTr/AMD_0242.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0243_0000.nii.gz",
+            "label": "./labelsTr/AMD_0243.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0244_0000.nii.gz",
+            "label": "./labelsTr/AMD_0244.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0245_0000.nii.gz",
+            "label": "./labelsTr/AMD_0245.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0246_0000.nii.gz",
+            "label": "./labelsTr/AMD_0246.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0247_0000.nii.gz",
+            "label": "./labelsTr/AMD_0247.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0248_0000.nii.gz",
+            "label": "./labelsTr/AMD_0248.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0249_0000.nii.gz",
+            "label": "./labelsTr/AMD_0249.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0250_0000.nii.gz",
+            "label": "./labelsTr/AMD_0250.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0251_0000.nii.gz",
+            "label": "./labelsTr/AMD_0251.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0252_0000.nii.gz",
+            "label": "./labelsTr/AMD_0252.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0253_0000.nii.gz",
+            "label": "./labelsTr/AMD_0253.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0254_0000.nii.gz",
+            "label": "./labelsTr/AMD_0254.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0255_0000.nii.gz",
+            "label": "./labelsTr/AMD_0255.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0256_0000.nii.gz",
+            "label": "./labelsTr/AMD_0256.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0257_0000.nii.gz",
+            "label": "./labelsTr/AMD_0257.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0258_0000.nii.gz",
+            "label": "./labelsTr/AMD_0258.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0259_0000.nii.gz",
+            "label": "./labelsTr/AMD_0259.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0260_0000.nii.gz",
+            "label": "./labelsTr/AMD_0260.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0261_0000.nii.gz",
+            "label": "./labelsTr/AMD_0261.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0262_0000.nii.gz",
+            "label": "./labelsTr/AMD_0262.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0263_0000.nii.gz",
+            "label": "./labelsTr/AMD_0263.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0264_0000.nii.gz",
+            "label": "./labelsTr/AMD_0264.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0265_0000.nii.gz",
+            "label": "./labelsTr/AMD_0265.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0266_0000.nii.gz",
+            "label": "./labelsTr/AMD_0266.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0267_0000.nii.gz",
+            "label": "./labelsTr/AMD_0267.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0268_0000.nii.gz",
+            "label": "./labelsTr/AMD_0268.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0269_0000.nii.gz",
+            "label": "./labelsTr/AMD_0269.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0270_0000.nii.gz",
+            "label": "./labelsTr/AMD_0270.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0271_0000.nii.gz",
+            "label": "./labelsTr/AMD_0271.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0272_0000.nii.gz",
+            "label": "./labelsTr/AMD_0272.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0273_0000.nii.gz",
+            "label": "./labelsTr/AMD_0273.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0274_0000.nii.gz",
+            "label": "./labelsTr/AMD_0274.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0275_0000.nii.gz",
+            "label": "./labelsTr/AMD_0275.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0276_0000.nii.gz",
+            "label": "./labelsTr/AMD_0276.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0277_0000.nii.gz",
+            "label": "./labelsTr/AMD_0277.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0278_0000.nii.gz",
+            "label": "./labelsTr/AMD_0278.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0279_0000.nii.gz",
+            "label": "./labelsTr/AMD_0279.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0280_0000.nii.gz",
+            "label": "./labelsTr/AMD_0280.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0281_0000.nii.gz",
+            "label": "./labelsTr/AMD_0281.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0282_0000.nii.gz",
+            "label": "./labelsTr/AMD_0282.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0283_0000.nii.gz",
+            "label": "./labelsTr/AMD_0283.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0284_0000.nii.gz",
+            "label": "./labelsTr/AMD_0284.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0285_0000.nii.gz",
+            "label": "./labelsTr/AMD_0285.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0286_0000.nii.gz",
+            "label": "./labelsTr/AMD_0286.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0287_0000.nii.gz",
+            "label": "./labelsTr/AMD_0287.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0288_0000.nii.gz",
+            "label": "./labelsTr/AMD_0288.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0289_0000.nii.gz",
+            "label": "./labelsTr/AMD_0289.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0290_0000.nii.gz",
+            "label": "./labelsTr/AMD_0290.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0291_0000.nii.gz",
+            "label": "./labelsTr/AMD_0291.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0292_0000.nii.gz",
+            "label": "./labelsTr/AMD_0292.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0293_0000.nii.gz",
+            "label": "./labelsTr/AMD_0293.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0294_0000.nii.gz",
+            "label": "./labelsTr/AMD_0294.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0295_0000.nii.gz",
+            "label": "./labelsTr/AMD_0295.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0296_0000.nii.gz",
+            "label": "./labelsTr/AMD_0296.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0297_0000.nii.gz",
+            "label": "./labelsTr/AMD_0297.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0298_0000.nii.gz",
+            "label": "./labelsTr/AMD_0298.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0299_0000.nii.gz",
+            "label": "./labelsTr/AMD_0299.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0300_0000.nii.gz",
+            "label": "./labelsTr/AMD_0300.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0301_0000.nii.gz",
+            "label": "./labelsTr/AMD_0301.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0302_0000.nii.gz",
+            "label": "./labelsTr/AMD_0302.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0303_0000.nii.gz",
+            "label": "./labelsTr/AMD_0303.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0304_0000.nii.gz",
+            "label": "./labelsTr/AMD_0304.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0305_0000.nii.gz",
+            "label": "./labelsTr/AMD_0305.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0306_0000.nii.gz",
+            "label": "./labelsTr/AMD_0306.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0307_0000.nii.gz",
+            "label": "./labelsTr/AMD_0307.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0308_0000.nii.gz",
+            "label": "./labelsTr/AMD_0308.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0309_0000.nii.gz",
+            "label": "./labelsTr/AMD_0309.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0310_0000.nii.gz",
+            "label": "./labelsTr/AMD_0310.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0311_0000.nii.gz",
+            "label": "./labelsTr/AMD_0311.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0312_0000.nii.gz",
+            "label": "./labelsTr/AMD_0312.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0313_0000.nii.gz",
+            "label": "./labelsTr/AMD_0313.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0314_0000.nii.gz",
+            "label": "./labelsTr/AMD_0314.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0315_0000.nii.gz",
+            "label": "./labelsTr/AMD_0315.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0316_0000.nii.gz",
+            "label": "./labelsTr/AMD_0316.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0317_0000.nii.gz",
+            "label": "./labelsTr/AMD_0317.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0318_0000.nii.gz",
+            "label": "./labelsTr/AMD_0318.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0319_0000.nii.gz",
+            "label": "./labelsTr/AMD_0319.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0320_0000.nii.gz",
+            "label": "./labelsTr/AMD_0320.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0321_0000.nii.gz",
+            "label": "./labelsTr/AMD_0321.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0322_0000.nii.gz",
+            "label": "./labelsTr/AMD_0322.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0323_0000.nii.gz",
+            "label": "./labelsTr/AMD_0323.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0324_0000.nii.gz",
+            "label": "./labelsTr/AMD_0324.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0325_0000.nii.gz",
+            "label": "./labelsTr/AMD_0325.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0326_0000.nii.gz",
+            "label": "./labelsTr/AMD_0326.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0327_0000.nii.gz",
+            "label": "./labelsTr/AMD_0327.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0328_0000.nii.gz",
+            "label": "./labelsTr/AMD_0328.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0329_0000.nii.gz",
+            "label": "./labelsTr/AMD_0329.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0330_0000.nii.gz",
+            "label": "./labelsTr/AMD_0330.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0331_0000.nii.gz",
+            "label": "./labelsTr/AMD_0331.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0332_0000.nii.gz",
+            "label": "./labelsTr/AMD_0332.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0333_0000.nii.gz",
+            "label": "./labelsTr/AMD_0333.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0334_0000.nii.gz",
+            "label": "./labelsTr/AMD_0334.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0335_0000.nii.gz",
+            "label": "./labelsTr/AMD_0335.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0336_0000.nii.gz",
+            "label": "./labelsTr/AMD_0336.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0337_0000.nii.gz",
+            "label": "./labelsTr/AMD_0337.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0338_0000.nii.gz",
+            "label": "./labelsTr/AMD_0338.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0339_0000.nii.gz",
+            "label": "./labelsTr/AMD_0339.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0340_0000.nii.gz",
+            "label": "./labelsTr/AMD_0340.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0341_0000.nii.gz",
+            "label": "./labelsTr/AMD_0341.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0342_0000.nii.gz",
+            "label": "./labelsTr/AMD_0342.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0343_0000.nii.gz",
+            "label": "./labelsTr/AMD_0343.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0344_0000.nii.gz",
+            "label": "./labelsTr/AMD_0344.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0345_0000.nii.gz",
+            "label": "./labelsTr/AMD_0345.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0346_0000.nii.gz",
+            "label": "./labelsTr/AMD_0346.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0347_0000.nii.gz",
+            "label": "./labelsTr/AMD_0347.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0348_0000.nii.gz",
+            "label": "./labelsTr/AMD_0348.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0349_0000.nii.gz",
+            "label": "./labelsTr/AMD_0349.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0350_0000.nii.gz",
+            "label": "./labelsTr/AMD_0350.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0351_0000.nii.gz",
+            "label": "./labelsTr/AMD_0351.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0352_0000.nii.gz",
+            "label": "./labelsTr/AMD_0352.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0353_0000.nii.gz",
+            "label": "./labelsTr/AMD_0353.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0354_0000.nii.gz",
+            "label": "./labelsTr/AMD_0354.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0355_0000.nii.gz",
+            "label": "./labelsTr/AMD_0355.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0356_0000.nii.gz",
+            "label": "./labelsTr/AMD_0356.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0357_0000.nii.gz",
+            "label": "./labelsTr/AMD_0357.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0358_0000.nii.gz",
+            "label": "./labelsTr/AMD_0358.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0359_0000.nii.gz",
+            "label": "./labelsTr/AMD_0359.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0360_0000.nii.gz",
+            "label": "./labelsTr/AMD_0360.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0361_0000.nii.gz",
+            "label": "./labelsTr/AMD_0361.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0362_0000.nii.gz",
+            "label": "./labelsTr/AMD_0362.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0363_0000.nii.gz",
+            "label": "./labelsTr/AMD_0363.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0364_0000.nii.gz",
+            "label": "./labelsTr/AMD_0364.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0365_0000.nii.gz",
+            "label": "./labelsTr/AMD_0365.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0366_0000.nii.gz",
+            "label": "./labelsTr/AMD_0366.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0367_0000.nii.gz",
+            "label": "./labelsTr/AMD_0367.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0368_0000.nii.gz",
+            "label": "./labelsTr/AMD_0368.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0369_0000.nii.gz",
+            "label": "./labelsTr/AMD_0369.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0370_0000.nii.gz",
+            "label": "./labelsTr/AMD_0370.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0371_0000.nii.gz",
+            "label": "./labelsTr/AMD_0371.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0372_0000.nii.gz",
+            "label": "./labelsTr/AMD_0372.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0373_0000.nii.gz",
+            "label": "./labelsTr/AMD_0373.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0374_0000.nii.gz",
+            "label": "./labelsTr/AMD_0374.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0375_0000.nii.gz",
+            "label": "./labelsTr/AMD_0375.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0376_0000.nii.gz",
+            "label": "./labelsTr/AMD_0376.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0377_0000.nii.gz",
+            "label": "./labelsTr/AMD_0377.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0378_0000.nii.gz",
+            "label": "./labelsTr/AMD_0378.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0379_0000.nii.gz",
+            "label": "./labelsTr/AMD_0379.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0380_0000.nii.gz",
+            "label": "./labelsTr/AMD_0380.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0381_0000.nii.gz",
+            "label": "./labelsTr/AMD_0381.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0382_0000.nii.gz",
+            "label": "./labelsTr/AMD_0382.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0383_0000.nii.gz",
+            "label": "./labelsTr/AMD_0383.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0384_0000.nii.gz",
+            "label": "./labelsTr/AMD_0384.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0385_0000.nii.gz",
+            "label": "./labelsTr/AMD_0385.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0386_0000.nii.gz",
+            "label": "./labelsTr/AMD_0386.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0387_0000.nii.gz",
+            "label": "./labelsTr/AMD_0387.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0388_0000.nii.gz",
+            "label": "./labelsTr/AMD_0388.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0389_0000.nii.gz",
+            "label": "./labelsTr/AMD_0389.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0390_0000.nii.gz",
+            "label": "./labelsTr/AMD_0390.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0391_0000.nii.gz",
+            "label": "./labelsTr/AMD_0391.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0392_0000.nii.gz",
+            "label": "./labelsTr/AMD_0392.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0393_0000.nii.gz",
+            "label": "./labelsTr/AMD_0393.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0394_0000.nii.gz",
+            "label": "./labelsTr/AMD_0394.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0395_0000.nii.gz",
+            "label": "./labelsTr/AMD_0395.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0396_0000.nii.gz",
+            "label": "./labelsTr/AMD_0396.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0397_0000.nii.gz",
+            "label": "./labelsTr/AMD_0397.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0398_0000.nii.gz",
+            "label": "./labelsTr/AMD_0398.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0399_0000.nii.gz",
+            "label": "./labelsTr/AMD_0399.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0400_0000.nii.gz",
+            "label": "./labelsTr/AMD_0400.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0401_0000.nii.gz",
+            "label": "./labelsTr/AMD_0401.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0402_0000.nii.gz",
+            "label": "./labelsTr/AMD_0402.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0403_0000.nii.gz",
+            "label": "./labelsTr/AMD_0403.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0404_0000.nii.gz",
+            "label": "./labelsTr/AMD_0404.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0405_0000.nii.gz",
+            "label": "./labelsTr/AMD_0405.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0406_0000.nii.gz",
+            "label": "./labelsTr/AMD_0406.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0407_0000.nii.gz",
+            "label": "./labelsTr/AMD_0407.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0408_0000.nii.gz",
+            "label": "./labelsTr/AMD_0408.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0409_0000.nii.gz",
+            "label": "./labelsTr/AMD_0409.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0410_0000.nii.gz",
+            "label": "./labelsTr/AMD_0410.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0411_0000.nii.gz",
+            "label": "./labelsTr/AMD_0411.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0412_0000.nii.gz",
+            "label": "./labelsTr/AMD_0412.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0413_0000.nii.gz",
+            "label": "./labelsTr/AMD_0413.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0414_0000.nii.gz",
+            "label": "./labelsTr/AMD_0414.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0415_0000.nii.gz",
+            "label": "./labelsTr/AMD_0415.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0416_0000.nii.gz",
+            "label": "./labelsTr/AMD_0416.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0417_0000.nii.gz",
+            "label": "./labelsTr/AMD_0417.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0418_0000.nii.gz",
+            "label": "./labelsTr/AMD_0418.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0419_0000.nii.gz",
+            "label": "./labelsTr/AMD_0419.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0420_0000.nii.gz",
+            "label": "./labelsTr/AMD_0420.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0421_0000.nii.gz",
+            "label": "./labelsTr/AMD_0421.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0422_0000.nii.gz",
+            "label": "./labelsTr/AMD_0422.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0423_0000.nii.gz",
+            "label": "./labelsTr/AMD_0423.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0424_0000.nii.gz",
+            "label": "./labelsTr/AMD_0424.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0425_0000.nii.gz",
+            "label": "./labelsTr/AMD_0425.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0426_0000.nii.gz",
+            "label": "./labelsTr/AMD_0426.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0427_0000.nii.gz",
+            "label": "./labelsTr/AMD_0427.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0428_0000.nii.gz",
+            "label": "./labelsTr/AMD_0428.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0429_0000.nii.gz",
+            "label": "./labelsTr/AMD_0429.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0430_0000.nii.gz",
+            "label": "./labelsTr/AMD_0430.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0431_0000.nii.gz",
+            "label": "./labelsTr/AMD_0431.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0432_0000.nii.gz",
+            "label": "./labelsTr/AMD_0432.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0433_0000.nii.gz",
+            "label": "./labelsTr/AMD_0433.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0434_0000.nii.gz",
+            "label": "./labelsTr/AMD_0434.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0435_0000.nii.gz",
+            "label": "./labelsTr/AMD_0435.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0436_0000.nii.gz",
+            "label": "./labelsTr/AMD_0436.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0437_0000.nii.gz",
+            "label": "./labelsTr/AMD_0437.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0438_0000.nii.gz",
+            "label": "./labelsTr/AMD_0438.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0439_0000.nii.gz",
+            "label": "./labelsTr/AMD_0439.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0440_0000.nii.gz",
+            "label": "./labelsTr/AMD_0440.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0441_0000.nii.gz",
+            "label": "./labelsTr/AMD_0441.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0442_0000.nii.gz",
+            "label": "./labelsTr/AMD_0442.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0443_0000.nii.gz",
+            "label": "./labelsTr/AMD_0443.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0444_0000.nii.gz",
+            "label": "./labelsTr/AMD_0444.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0445_0000.nii.gz",
+            "label": "./labelsTr/AMD_0445.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0446_0000.nii.gz",
+            "label": "./labelsTr/AMD_0446.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0447_0000.nii.gz",
+            "label": "./labelsTr/AMD_0447.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0448_0000.nii.gz",
+            "label": "./labelsTr/AMD_0448.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0449_0000.nii.gz",
+            "label": "./labelsTr/AMD_0449.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0450_0000.nii.gz",
+            "label": "./labelsTr/AMD_0450.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0451_0000.nii.gz",
+            "label": "./labelsTr/AMD_0451.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0452_0000.nii.gz",
+            "label": "./labelsTr/AMD_0452.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0453_0000.nii.gz",
+            "label": "./labelsTr/AMD_0453.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0454_0000.nii.gz",
+            "label": "./labelsTr/AMD_0454.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0455_0000.nii.gz",
+            "label": "./labelsTr/AMD_0455.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0456_0000.nii.gz",
+            "label": "./labelsTr/AMD_0456.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0457_0000.nii.gz",
+            "label": "./labelsTr/AMD_0457.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0458_0000.nii.gz",
+            "label": "./labelsTr/AMD_0458.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0459_0000.nii.gz",
+            "label": "./labelsTr/AMD_0459.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0460_0000.nii.gz",
+            "label": "./labelsTr/AMD_0460.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0461_0000.nii.gz",
+            "label": "./labelsTr/AMD_0461.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0462_0000.nii.gz",
+            "label": "./labelsTr/AMD_0462.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0463_0000.nii.gz",
+            "label": "./labelsTr/AMD_0463.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0464_0000.nii.gz",
+            "label": "./labelsTr/AMD_0464.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0465_0000.nii.gz",
+            "label": "./labelsTr/AMD_0465.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0466_0000.nii.gz",
+            "label": "./labelsTr/AMD_0466.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0467_0000.nii.gz",
+            "label": "./labelsTr/AMD_0467.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0468_0000.nii.gz",
+            "label": "./labelsTr/AMD_0468.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0469_0000.nii.gz",
+            "label": "./labelsTr/AMD_0469.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0470_0000.nii.gz",
+            "label": "./labelsTr/AMD_0470.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0471_0000.nii.gz",
+            "label": "./labelsTr/AMD_0471.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0472_0000.nii.gz",
+            "label": "./labelsTr/AMD_0472.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0473_0000.nii.gz",
+            "label": "./labelsTr/AMD_0473.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0474_0000.nii.gz",
+            "label": "./labelsTr/AMD_0474.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0475_0000.nii.gz",
+            "label": "./labelsTr/AMD_0475.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0476_0000.nii.gz",
+            "label": "./labelsTr/AMD_0476.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0477_0000.nii.gz",
+            "label": "./labelsTr/AMD_0477.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0478_0000.nii.gz",
+            "label": "./labelsTr/AMD_0478.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0479_0000.nii.gz",
+            "label": "./labelsTr/AMD_0479.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0480_0000.nii.gz",
+            "label": "./labelsTr/AMD_0480.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0481_0000.nii.gz",
+            "label": "./labelsTr/AMD_0481.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0482_0000.nii.gz",
+            "label": "./labelsTr/AMD_0482.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0483_0000.nii.gz",
+            "label": "./labelsTr/AMD_0483.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0484_0000.nii.gz",
+            "label": "./labelsTr/AMD_0484.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0485_0000.nii.gz",
+            "label": "./labelsTr/AMD_0485.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0486_0000.nii.gz",
+            "label": "./labelsTr/AMD_0486.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0487_0000.nii.gz",
+            "label": "./labelsTr/AMD_0487.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0488_0000.nii.gz",
+            "label": "./labelsTr/AMD_0488.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0489_0000.nii.gz",
+            "label": "./labelsTr/AMD_0489.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0490_0000.nii.gz",
+            "label": "./labelsTr/AMD_0490.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0491_0000.nii.gz",
+            "label": "./labelsTr/AMD_0491.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0492_0000.nii.gz",
+            "label": "./labelsTr/AMD_0492.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0493_0000.nii.gz",
+            "label": "./labelsTr/AMD_0493.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0494_0000.nii.gz",
+            "label": "./labelsTr/AMD_0494.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0495_0000.nii.gz",
+            "label": "./labelsTr/AMD_0495.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0496_0000.nii.gz",
+            "label": "./labelsTr/AMD_0496.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0497_0000.nii.gz",
+            "label": "./labelsTr/AMD_0497.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0498_0000.nii.gz",
+            "label": "./labelsTr/AMD_0498.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0499_0000.nii.gz",
+            "label": "./labelsTr/AMD_0499.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0500_0000.nii.gz",
+            "label": "./labelsTr/AMD_0500.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0501_0000.nii.gz",
+            "label": "./labelsTr/AMD_0501.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0502_0000.nii.gz",
+            "label": "./labelsTr/AMD_0502.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0503_0000.nii.gz",
+            "label": "./labelsTr/AMD_0503.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0504_0000.nii.gz",
+            "label": "./labelsTr/AMD_0504.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0505_0000.nii.gz",
+            "label": "./labelsTr/AMD_0505.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0506_0000.nii.gz",
+            "label": "./labelsTr/AMD_0506.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0507_0000.nii.gz",
+            "label": "./labelsTr/AMD_0507.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0508_0000.nii.gz",
+            "label": "./labelsTr/AMD_0508.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0509_0000.nii.gz",
+            "label": "./labelsTr/AMD_0509.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0510_0000.nii.gz",
+            "label": "./labelsTr/AMD_0510.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0511_0000.nii.gz",
+            "label": "./labelsTr/AMD_0511.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0512_0000.nii.gz",
+            "label": "./labelsTr/AMD_0512.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0513_0000.nii.gz",
+            "label": "./labelsTr/AMD_0513.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0514_0000.nii.gz",
+            "label": "./labelsTr/AMD_0514.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0515_0000.nii.gz",
+            "label": "./labelsTr/AMD_0515.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0516_0000.nii.gz",
+            "label": "./labelsTr/AMD_0516.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0517_0000.nii.gz",
+            "label": "./labelsTr/AMD_0517.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0518_0000.nii.gz",
+            "label": "./labelsTr/AMD_0518.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0519_0000.nii.gz",
+            "label": "./labelsTr/AMD_0519.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0520_0000.nii.gz",
+            "label": "./labelsTr/AMD_0520.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0521_0000.nii.gz",
+            "label": "./labelsTr/AMD_0521.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0522_0000.nii.gz",
+            "label": "./labelsTr/AMD_0522.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0523_0000.nii.gz",
+            "label": "./labelsTr/AMD_0523.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0524_0000.nii.gz",
+            "label": "./labelsTr/AMD_0524.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0525_0000.nii.gz",
+            "label": "./labelsTr/AMD_0525.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0526_0000.nii.gz",
+            "label": "./labelsTr/AMD_0526.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0527_0000.nii.gz",
+            "label": "./labelsTr/AMD_0527.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0528_0000.nii.gz",
+            "label": "./labelsTr/AMD_0528.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0529_0000.nii.gz",
+            "label": "./labelsTr/AMD_0529.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0530_0000.nii.gz",
+            "label": "./labelsTr/AMD_0530.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0531_0000.nii.gz",
+            "label": "./labelsTr/AMD_0531.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0532_0000.nii.gz",
+            "label": "./labelsTr/AMD_0532.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0533_0000.nii.gz",
+            "label": "./labelsTr/AMD_0533.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0534_0000.nii.gz",
+            "label": "./labelsTr/AMD_0534.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0535_0000.nii.gz",
+            "label": "./labelsTr/AMD_0535.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0536_0000.nii.gz",
+            "label": "./labelsTr/AMD_0536.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0537_0000.nii.gz",
+            "label": "./labelsTr/AMD_0537.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0538_0000.nii.gz",
+            "label": "./labelsTr/AMD_0538.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0539_0000.nii.gz",
+            "label": "./labelsTr/AMD_0539.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0540_0000.nii.gz",
+            "label": "./labelsTr/AMD_0540.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0541_0000.nii.gz",
+            "label": "./labelsTr/AMD_0541.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0542_0000.nii.gz",
+            "label": "./labelsTr/AMD_0542.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0543_0000.nii.gz",
+            "label": "./labelsTr/AMD_0543.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0544_0000.nii.gz",
+            "label": "./labelsTr/AMD_0544.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0545_0000.nii.gz",
+            "label": "./labelsTr/AMD_0545.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0546_0000.nii.gz",
+            "label": "./labelsTr/AMD_0546.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0547_0000.nii.gz",
+            "label": "./labelsTr/AMD_0547.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0548_0000.nii.gz",
+            "label": "./labelsTr/AMD_0548.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0549_0000.nii.gz",
+            "label": "./labelsTr/AMD_0549.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0550_0000.nii.gz",
+            "label": "./labelsTr/AMD_0550.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0551_0000.nii.gz",
+            "label": "./labelsTr/AMD_0551.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0552_0000.nii.gz",
+            "label": "./labelsTr/AMD_0552.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0553_0000.nii.gz",
+            "label": "./labelsTr/AMD_0553.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0554_0000.nii.gz",
+            "label": "./labelsTr/AMD_0554.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0555_0000.nii.gz",
+            "label": "./labelsTr/AMD_0555.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0556_0000.nii.gz",
+            "label": "./labelsTr/AMD_0556.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0557_0000.nii.gz",
+            "label": "./labelsTr/AMD_0557.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0558_0000.nii.gz",
+            "label": "./labelsTr/AMD_0558.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0559_0000.nii.gz",
+            "label": "./labelsTr/AMD_0559.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0560_0000.nii.gz",
+            "label": "./labelsTr/AMD_0560.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0561_0000.nii.gz",
+            "label": "./labelsTr/AMD_0561.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0562_0000.nii.gz",
+            "label": "./labelsTr/AMD_0562.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0563_0000.nii.gz",
+            "label": "./labelsTr/AMD_0563.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0564_0000.nii.gz",
+            "label": "./labelsTr/AMD_0564.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0565_0000.nii.gz",
+            "label": "./labelsTr/AMD_0565.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0566_0000.nii.gz",
+            "label": "./labelsTr/AMD_0566.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0567_0000.nii.gz",
+            "label": "./labelsTr/AMD_0567.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0568_0000.nii.gz",
+            "label": "./labelsTr/AMD_0568.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0569_0000.nii.gz",
+            "label": "./labelsTr/AMD_0569.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0570_0000.nii.gz",
+            "label": "./labelsTr/AMD_0570.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0571_0000.nii.gz",
+            "label": "./labelsTr/AMD_0571.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0572_0000.nii.gz",
+            "label": "./labelsTr/AMD_0572.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0573_0000.nii.gz",
+            "label": "./labelsTr/AMD_0573.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0574_0000.nii.gz",
+            "label": "./labelsTr/AMD_0574.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0575_0000.nii.gz",
+            "label": "./labelsTr/AMD_0575.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0576_0000.nii.gz",
+            "label": "./labelsTr/AMD_0576.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0577_0000.nii.gz",
+            "label": "./labelsTr/AMD_0577.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0578_0000.nii.gz",
+            "label": "./labelsTr/AMD_0578.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0579_0000.nii.gz",
+            "label": "./labelsTr/AMD_0579.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0580_0000.nii.gz",
+            "label": "./labelsTr/AMD_0580.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0581_0000.nii.gz",
+            "label": "./labelsTr/AMD_0581.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0582_0000.nii.gz",
+            "label": "./labelsTr/AMD_0582.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0583_0000.nii.gz",
+            "label": "./labelsTr/AMD_0583.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0584_0000.nii.gz",
+            "label": "./labelsTr/AMD_0584.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0585_0000.nii.gz",
+            "label": "./labelsTr/AMD_0585.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0586_0000.nii.gz",
+            "label": "./labelsTr/AMD_0586.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0587_0000.nii.gz",
+            "label": "./labelsTr/AMD_0587.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0588_0000.nii.gz",
+            "label": "./labelsTr/AMD_0588.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0589_0000.nii.gz",
+            "label": "./labelsTr/AMD_0589.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0590_0000.nii.gz",
+            "label": "./labelsTr/AMD_0590.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0591_0000.nii.gz",
+            "label": "./labelsTr/AMD_0591.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0592_0000.nii.gz",
+            "label": "./labelsTr/AMD_0592.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0593_0000.nii.gz",
+            "label": "./labelsTr/AMD_0593.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0594_0000.nii.gz",
+            "label": "./labelsTr/AMD_0594.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0595_0000.nii.gz",
+            "label": "./labelsTr/AMD_0595.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0596_0000.nii.gz",
+            "label": "./labelsTr/AMD_0596.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0597_0000.nii.gz",
+            "label": "./labelsTr/AMD_0597.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0598_0000.nii.gz",
+            "label": "./labelsTr/AMD_0598.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0599_0000.nii.gz",
+            "label": "./labelsTr/AMD_0599.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0600_0000.nii.gz",
+            "label": "./labelsTr/AMD_0600.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0601_0000.nii.gz",
+            "label": "./labelsTr/AMD_0601.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0602_0000.nii.gz",
+            "label": "./labelsTr/AMD_0602.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0603_0000.nii.gz",
+            "label": "./labelsTr/AMD_0603.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0604_0000.nii.gz",
+            "label": "./labelsTr/AMD_0604.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0605_0000.nii.gz",
+            "label": "./labelsTr/AMD_0605.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0606_0000.nii.gz",
+            "label": "./labelsTr/AMD_0606.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0607_0000.nii.gz",
+            "label": "./labelsTr/AMD_0607.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0608_0000.nii.gz",
+            "label": "./labelsTr/AMD_0608.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0609_0000.nii.gz",
+            "label": "./labelsTr/AMD_0609.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0610_0000.nii.gz",
+            "label": "./labelsTr/AMD_0610.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0611_0000.nii.gz",
+            "label": "./labelsTr/AMD_0611.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0612_0000.nii.gz",
+            "label": "./labelsTr/AMD_0612.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0613_0000.nii.gz",
+            "label": "./labelsTr/AMD_0613.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0614_0000.nii.gz",
+            "label": "./labelsTr/AMD_0614.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0615_0000.nii.gz",
+            "label": "./labelsTr/AMD_0615.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0616_0000.nii.gz",
+            "label": "./labelsTr/AMD_0616.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0617_0000.nii.gz",
+            "label": "./labelsTr/AMD_0617.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0618_0000.nii.gz",
+            "label": "./labelsTr/AMD_0618.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0619_0000.nii.gz",
+            "label": "./labelsTr/AMD_0619.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0620_0000.nii.gz",
+            "label": "./labelsTr/AMD_0620.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0621_0000.nii.gz",
+            "label": "./labelsTr/AMD_0621.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0622_0000.nii.gz",
+            "label": "./labelsTr/AMD_0622.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0623_0000.nii.gz",
+            "label": "./labelsTr/AMD_0623.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0624_0000.nii.gz",
+            "label": "./labelsTr/AMD_0624.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0625_0000.nii.gz",
+            "label": "./labelsTr/AMD_0625.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0626_0000.nii.gz",
+            "label": "./labelsTr/AMD_0626.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0627_0000.nii.gz",
+            "label": "./labelsTr/AMD_0627.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0628_0000.nii.gz",
+            "label": "./labelsTr/AMD_0628.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0629_0000.nii.gz",
+            "label": "./labelsTr/AMD_0629.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0630_0000.nii.gz",
+            "label": "./labelsTr/AMD_0630.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0631_0000.nii.gz",
+            "label": "./labelsTr/AMD_0631.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0632_0000.nii.gz",
+            "label": "./labelsTr/AMD_0632.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0633_0000.nii.gz",
+            "label": "./labelsTr/AMD_0633.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0634_0000.nii.gz",
+            "label": "./labelsTr/AMD_0634.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0635_0000.nii.gz",
+            "label": "./labelsTr/AMD_0635.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0636_0000.nii.gz",
+            "label": "./labelsTr/AMD_0636.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0637_0000.nii.gz",
+            "label": "./labelsTr/AMD_0637.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0638_0000.nii.gz",
+            "label": "./labelsTr/AMD_0638.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0639_0000.nii.gz",
+            "label": "./labelsTr/AMD_0639.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0640_0000.nii.gz",
+            "label": "./labelsTr/AMD_0640.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0641_0000.nii.gz",
+            "label": "./labelsTr/AMD_0641.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0642_0000.nii.gz",
+            "label": "./labelsTr/AMD_0642.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0643_0000.nii.gz",
+            "label": "./labelsTr/AMD_0643.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0644_0000.nii.gz",
+            "label": "./labelsTr/AMD_0644.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0645_0000.nii.gz",
+            "label": "./labelsTr/AMD_0645.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0646_0000.nii.gz",
+            "label": "./labelsTr/AMD_0646.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0647_0000.nii.gz",
+            "label": "./labelsTr/AMD_0647.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0648_0000.nii.gz",
+            "label": "./labelsTr/AMD_0648.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0649_0000.nii.gz",
+            "label": "./labelsTr/AMD_0649.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0650_0000.nii.gz",
+            "label": "./labelsTr/AMD_0650.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0651_0000.nii.gz",
+            "label": "./labelsTr/AMD_0651.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0652_0000.nii.gz",
+            "label": "./labelsTr/AMD_0652.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0653_0000.nii.gz",
+            "label": "./labelsTr/AMD_0653.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0654_0000.nii.gz",
+            "label": "./labelsTr/AMD_0654.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0655_0000.nii.gz",
+            "label": "./labelsTr/AMD_0655.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0656_0000.nii.gz",
+            "label": "./labelsTr/AMD_0656.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0657_0000.nii.gz",
+            "label": "./labelsTr/AMD_0657.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0658_0000.nii.gz",
+            "label": "./labelsTr/AMD_0658.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0659_0000.nii.gz",
+            "label": "./labelsTr/AMD_0659.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0660_0000.nii.gz",
+            "label": "./labelsTr/AMD_0660.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0661_0000.nii.gz",
+            "label": "./labelsTr/AMD_0661.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0662_0000.nii.gz",
+            "label": "./labelsTr/AMD_0662.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0663_0000.nii.gz",
+            "label": "./labelsTr/AMD_0663.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0664_0000.nii.gz",
+            "label": "./labelsTr/AMD_0664.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0665_0000.nii.gz",
+            "label": "./labelsTr/AMD_0665.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0666_0000.nii.gz",
+            "label": "./labelsTr/AMD_0666.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0667_0000.nii.gz",
+            "label": "./labelsTr/AMD_0667.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0668_0000.nii.gz",
+            "label": "./labelsTr/AMD_0668.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0669_0000.nii.gz",
+            "label": "./labelsTr/AMD_0669.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0670_0000.nii.gz",
+            "label": "./labelsTr/AMD_0670.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0671_0000.nii.gz",
+            "label": "./labelsTr/AMD_0671.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0672_0000.nii.gz",
+            "label": "./labelsTr/AMD_0672.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0673_0000.nii.gz",
+            "label": "./labelsTr/AMD_0673.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0674_0000.nii.gz",
+            "label": "./labelsTr/AMD_0674.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0675_0000.nii.gz",
+            "label": "./labelsTr/AMD_0675.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0676_0000.nii.gz",
+            "label": "./labelsTr/AMD_0676.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0677_0000.nii.gz",
+            "label": "./labelsTr/AMD_0677.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0678_0000.nii.gz",
+            "label": "./labelsTr/AMD_0678.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0679_0000.nii.gz",
+            "label": "./labelsTr/AMD_0679.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0680_0000.nii.gz",
+            "label": "./labelsTr/AMD_0680.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0681_0000.nii.gz",
+            "label": "./labelsTr/AMD_0681.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0682_0000.nii.gz",
+            "label": "./labelsTr/AMD_0682.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0683_0000.nii.gz",
+            "label": "./labelsTr/AMD_0683.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0684_0000.nii.gz",
+            "label": "./labelsTr/AMD_0684.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0685_0000.nii.gz",
+            "label": "./labelsTr/AMD_0685.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0686_0000.nii.gz",
+            "label": "./labelsTr/AMD_0686.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0687_0000.nii.gz",
+            "label": "./labelsTr/AMD_0687.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0688_0000.nii.gz",
+            "label": "./labelsTr/AMD_0688.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0689_0000.nii.gz",
+            "label": "./labelsTr/AMD_0689.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0690_0000.nii.gz",
+            "label": "./labelsTr/AMD_0690.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0691_0000.nii.gz",
+            "label": "./labelsTr/AMD_0691.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0692_0000.nii.gz",
+            "label": "./labelsTr/AMD_0692.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0693_0000.nii.gz",
+            "label": "./labelsTr/AMD_0693.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0694_0000.nii.gz",
+            "label": "./labelsTr/AMD_0694.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0695_0000.nii.gz",
+            "label": "./labelsTr/AMD_0695.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0696_0000.nii.gz",
+            "label": "./labelsTr/AMD_0696.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0697_0000.nii.gz",
+            "label": "./labelsTr/AMD_0697.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0698_0000.nii.gz",
+            "label": "./labelsTr/AMD_0698.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0699_0000.nii.gz",
+            "label": "./labelsTr/AMD_0699.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0700_0000.nii.gz",
+            "label": "./labelsTr/AMD_0700.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0701_0000.nii.gz",
+            "label": "./labelsTr/AMD_0701.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0702_0000.nii.gz",
+            "label": "./labelsTr/AMD_0702.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0703_0000.nii.gz",
+            "label": "./labelsTr/AMD_0703.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0704_0000.nii.gz",
+            "label": "./labelsTr/AMD_0704.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0705_0000.nii.gz",
+            "label": "./labelsTr/AMD_0705.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0706_0000.nii.gz",
+            "label": "./labelsTr/AMD_0706.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0707_0000.nii.gz",
+            "label": "./labelsTr/AMD_0707.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0708_0000.nii.gz",
+            "label": "./labelsTr/AMD_0708.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0709_0000.nii.gz",
+            "label": "./labelsTr/AMD_0709.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0710_0000.nii.gz",
+            "label": "./labelsTr/AMD_0710.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0711_0000.nii.gz",
+            "label": "./labelsTr/AMD_0711.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0712_0000.nii.gz",
+            "label": "./labelsTr/AMD_0712.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0713_0000.nii.gz",
+            "label": "./labelsTr/AMD_0713.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0714_0000.nii.gz",
+            "label": "./labelsTr/AMD_0714.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0715_0000.nii.gz",
+            "label": "./labelsTr/AMD_0715.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0716_0000.nii.gz",
+            "label": "./labelsTr/AMD_0716.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0717_0000.nii.gz",
+            "label": "./labelsTr/AMD_0717.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0718_0000.nii.gz",
+            "label": "./labelsTr/AMD_0718.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0719_0000.nii.gz",
+            "label": "./labelsTr/AMD_0719.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0720_0000.nii.gz",
+            "label": "./labelsTr/AMD_0720.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0721_0000.nii.gz",
+            "label": "./labelsTr/AMD_0721.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0722_0000.nii.gz",
+            "label": "./labelsTr/AMD_0722.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0723_0000.nii.gz",
+            "label": "./labelsTr/AMD_0723.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0724_0000.nii.gz",
+            "label": "./labelsTr/AMD_0724.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0725_0000.nii.gz",
+            "label": "./labelsTr/AMD_0725.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0726_0000.nii.gz",
+            "label": "./labelsTr/AMD_0726.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0727_0000.nii.gz",
+            "label": "./labelsTr/AMD_0727.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0728_0000.nii.gz",
+            "label": "./labelsTr/AMD_0728.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0729_0000.nii.gz",
+            "label": "./labelsTr/AMD_0729.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0730_0000.nii.gz",
+            "label": "./labelsTr/AMD_0730.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0731_0000.nii.gz",
+            "label": "./labelsTr/AMD_0731.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0732_0000.nii.gz",
+            "label": "./labelsTr/AMD_0732.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0733_0000.nii.gz",
+            "label": "./labelsTr/AMD_0733.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0734_0000.nii.gz",
+            "label": "./labelsTr/AMD_0734.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0735_0000.nii.gz",
+            "label": "./labelsTr/AMD_0735.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0736_0000.nii.gz",
+            "label": "./labelsTr/AMD_0736.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0737_0000.nii.gz",
+            "label": "./labelsTr/AMD_0737.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0738_0000.nii.gz",
+            "label": "./labelsTr/AMD_0738.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0739_0000.nii.gz",
+            "label": "./labelsTr/AMD_0739.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0740_0000.nii.gz",
+            "label": "./labelsTr/AMD_0740.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0741_0000.nii.gz",
+            "label": "./labelsTr/AMD_0741.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0742_0000.nii.gz",
+            "label": "./labelsTr/AMD_0742.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0743_0000.nii.gz",
+            "label": "./labelsTr/AMD_0743.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0744_0000.nii.gz",
+            "label": "./labelsTr/AMD_0744.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0745_0000.nii.gz",
+            "label": "./labelsTr/AMD_0745.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0746_0000.nii.gz",
+            "label": "./labelsTr/AMD_0746.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0747_0000.nii.gz",
+            "label": "./labelsTr/AMD_0747.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0748_0000.nii.gz",
+            "label": "./labelsTr/AMD_0748.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0749_0000.nii.gz",
+            "label": "./labelsTr/AMD_0749.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0750_0000.nii.gz",
+            "label": "./labelsTr/AMD_0750.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0751_0000.nii.gz",
+            "label": "./labelsTr/AMD_0751.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0752_0000.nii.gz",
+            "label": "./labelsTr/AMD_0752.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0753_0000.nii.gz",
+            "label": "./labelsTr/AMD_0753.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0754_0000.nii.gz",
+            "label": "./labelsTr/AMD_0754.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0755_0000.nii.gz",
+            "label": "./labelsTr/AMD_0755.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0756_0000.nii.gz",
+            "label": "./labelsTr/AMD_0756.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0757_0000.nii.gz",
+            "label": "./labelsTr/AMD_0757.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0758_0000.nii.gz",
+            "label": "./labelsTr/AMD_0758.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0759_0000.nii.gz",
+            "label": "./labelsTr/AMD_0759.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0760_0000.nii.gz",
+            "label": "./labelsTr/AMD_0760.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0761_0000.nii.gz",
+            "label": "./labelsTr/AMD_0761.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0762_0000.nii.gz",
+            "label": "./labelsTr/AMD_0762.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0763_0000.nii.gz",
+            "label": "./labelsTr/AMD_0763.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0764_0000.nii.gz",
+            "label": "./labelsTr/AMD_0764.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0765_0000.nii.gz",
+            "label": "./labelsTr/AMD_0765.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0766_0000.nii.gz",
+            "label": "./labelsTr/AMD_0766.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0767_0000.nii.gz",
+            "label": "./labelsTr/AMD_0767.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0768_0000.nii.gz",
+            "label": "./labelsTr/AMD_0768.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0769_0000.nii.gz",
+            "label": "./labelsTr/AMD_0769.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0770_0000.nii.gz",
+            "label": "./labelsTr/AMD_0770.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0771_0000.nii.gz",
+            "label": "./labelsTr/AMD_0771.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0772_0000.nii.gz",
+            "label": "./labelsTr/AMD_0772.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0773_0000.nii.gz",
+            "label": "./labelsTr/AMD_0773.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0774_0000.nii.gz",
+            "label": "./labelsTr/AMD_0774.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0775_0000.nii.gz",
+            "label": "./labelsTr/AMD_0775.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0776_0000.nii.gz",
+            "label": "./labelsTr/AMD_0776.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0777_0000.nii.gz",
+            "label": "./labelsTr/AMD_0777.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0778_0000.nii.gz",
+            "label": "./labelsTr/AMD_0778.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0779_0000.nii.gz",
+            "label": "./labelsTr/AMD_0779.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0780_0000.nii.gz",
+            "label": "./labelsTr/AMD_0780.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0781_0000.nii.gz",
+            "label": "./labelsTr/AMD_0781.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0782_0000.nii.gz",
+            "label": "./labelsTr/AMD_0782.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0783_0000.nii.gz",
+            "label": "./labelsTr/AMD_0783.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0784_0000.nii.gz",
+            "label": "./labelsTr/AMD_0784.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0785_0000.nii.gz",
+            "label": "./labelsTr/AMD_0785.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0786_0000.nii.gz",
+            "label": "./labelsTr/AMD_0786.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0787_0000.nii.gz",
+            "label": "./labelsTr/AMD_0787.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0788_0000.nii.gz",
+            "label": "./labelsTr/AMD_0788.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0789_0000.nii.gz",
+            "label": "./labelsTr/AMD_0789.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0790_0000.nii.gz",
+            "label": "./labelsTr/AMD_0790.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0791_0000.nii.gz",
+            "label": "./labelsTr/AMD_0791.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0792_0000.nii.gz",
+            "label": "./labelsTr/AMD_0792.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0793_0000.nii.gz",
+            "label": "./labelsTr/AMD_0793.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AMD_0794_0000.nii.gz",
+            "label": "./labelsTr/AMD_0794.nii.gz"
+        }
+    ],
+    "test": [
+        "./imagesTs/AMD_0795_0000.nii.gz",
+        "./imagesTs/AMD_0796_0000.nii.gz",
+        "./imagesTs/AMD_0797_0000.nii.gz",
+        "./imagesTs/AMD_0798_0000.nii.gz",
+        "./imagesTs/AMD_0799_0000.nii.gz",
+        "./imagesTs/AMD_0800_0000.nii.gz",
+        "./imagesTs/AMD_0801_0000.nii.gz",
+        "./imagesTs/AMD_0802_0000.nii.gz",
+        "./imagesTs/AMD_0803_0000.nii.gz",
+        "./imagesTs/AMD_0804_0000.nii.gz",
+        "./imagesTs/AMD_0805_0000.nii.gz",
+        "./imagesTs/AMD_0806_0000.nii.gz",
+        "./imagesTs/AMD_0807_0000.nii.gz",
+        "./imagesTs/AMD_0808_0000.nii.gz",
+        "./imagesTs/AMD_0809_0000.nii.gz",
+        "./imagesTs/AMD_0810_0000.nii.gz",
+        "./imagesTs/AMD_0811_0000.nii.gz",
+        "./imagesTs/AMD_0812_0000.nii.gz",
+        "./imagesTs/AMD_0813_0000.nii.gz",
+        "./imagesTs/AMD_0814_0000.nii.gz",
+        "./imagesTs/AMD_0815_0000.nii.gz",
+        "./imagesTs/AMD_0816_0000.nii.gz",
+        "./imagesTs/AMD_0817_0000.nii.gz",
+        "./imagesTs/AMD_0818_0000.nii.gz",
+        "./imagesTs/AMD_0819_0000.nii.gz",
+        "./imagesTs/AMD_0820_0000.nii.gz",
+        "./imagesTs/AMD_0821_0000.nii.gz",
+        "./imagesTs/AMD_0822_0000.nii.gz",
+        "./imagesTs/AMD_0823_0000.nii.gz",
+        "./imagesTs/AMD_0824_0000.nii.gz",
+        "./imagesTs/AMD_0825_0000.nii.gz",
+        "./imagesTs/AMD_0826_0000.nii.gz",
+        "./imagesTs/AMD_0827_0000.nii.gz",
+        "./imagesTs/AMD_0828_0000.nii.gz",
+        "./imagesTs/AMD_0829_0000.nii.gz",
+        "./imagesTs/AMD_0830_0000.nii.gz",
+        "./imagesTs/AMD_0831_0000.nii.gz",
+        "./imagesTs/AMD_0832_0000.nii.gz",
+        "./imagesTs/AMD_0833_0000.nii.gz",
+        "./imagesTs/AMD_0834_0000.nii.gz",
+        "./imagesTs/AMD_0835_0000.nii.gz",
+        "./imagesTs/AMD_0836_0000.nii.gz",
+        "./imagesTs/AMD_0837_0000.nii.gz",
+        "./imagesTs/AMD_0838_0000.nii.gz",
+        "./imagesTs/AMD_0839_0000.nii.gz",
+        "./imagesTs/AMD_0840_0000.nii.gz",
+        "./imagesTs/AMD_0841_0000.nii.gz",
+        "./imagesTs/AMD_0842_0000.nii.gz",
+        "./imagesTs/AMD_0843_0000.nii.gz",
+        "./imagesTs/AMD_0844_0000.nii.gz",
+        "./imagesTs/AMD_0845_0000.nii.gz",
+        "./imagesTs/AMD_0846_0000.nii.gz",
+        "./imagesTs/AMD_0847_0000.nii.gz",
+        "./imagesTs/AMD_0848_0000.nii.gz",
+        "./imagesTs/AMD_0849_0000.nii.gz",
+        "./imagesTs/AMD_0850_0000.nii.gz",
+        "./imagesTs/AMD_0851_0000.nii.gz",
+        "./imagesTs/AMD_0852_0000.nii.gz",
+        "./imagesTs/AMD_0853_0000.nii.gz",
+        "./imagesTs/AMD_0854_0000.nii.gz",
+        "./imagesTs/AMD_0855_0000.nii.gz",
+        "./imagesTs/AMD_0856_0000.nii.gz",
+        "./imagesTs/AMD_0857_0000.nii.gz",
+        "./imagesTs/AMD_0858_0000.nii.gz",
+        "./imagesTs/AMD_0859_0000.nii.gz",
+        "./imagesTs/AMD_0860_0000.nii.gz",
+        "./imagesTs/AMD_0861_0000.nii.gz",
+        "./imagesTs/AMD_0862_0000.nii.gz",
+        "./imagesTs/AMD_0863_0000.nii.gz",
+        "./imagesTs/AMD_0864_0000.nii.gz",
+        "./imagesTs/AMD_0865_0000.nii.gz",
+        "./imagesTs/AMD_0866_0000.nii.gz",
+        "./imagesTs/AMD_0867_0000.nii.gz",
+        "./imagesTs/AMD_0868_0000.nii.gz",
+        "./imagesTs/AMD_0869_0000.nii.gz",
+        "./imagesTs/AMD_0870_0000.nii.gz",
+        "./imagesTs/AMD_0871_0000.nii.gz",
+        "./imagesTs/AMD_0872_0000.nii.gz",
+        "./imagesTs/AMD_0873_0000.nii.gz",
+        "./imagesTs/AMD_0874_0000.nii.gz",
+        "./imagesTs/AMD_0875_0000.nii.gz",
+        "./imagesTs/AMD_0876_0000.nii.gz",
+        "./imagesTs/AMD_0877_0000.nii.gz",
+        "./imagesTs/AMD_0878_0000.nii.gz",
+        "./imagesTs/AMD_0879_0000.nii.gz",
+        "./imagesTs/AMD_0880_0000.nii.gz",
+        "./imagesTs/AMD_0881_0000.nii.gz",
+        "./imagesTs/AMD_0882_0000.nii.gz",
+        "./imagesTs/AMD_0883_0000.nii.gz"
+    ]
+}
