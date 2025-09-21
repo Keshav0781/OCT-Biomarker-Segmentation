@@ -1,0 +1,36 @@
+{
+    "task": "Task003_MacularHole",
+    "fold": 0,
+    "network": "2d",
+    "network_trainer": "nnUNetTrainerV2",
+    "batch_size": 8,
+    "patch_size": [
+        512,
+        512
+    ],
+    "inference_stages": 1,
+    "num_epochs": 50,
+    "initial_lr": 0.0001,
+    "loss": "DC_and_CE_loss",
+    "classes": [
+        "Background",
+        "MacularHole"
+    ],
+    "training_samples": 804,
+    "test_samples": 71,
+    "augmentation": true,
+    "augmentation_params": {
+        "elastic_deform": {
+            "alpha": 500,
+            "sigma": 20
+        },
+        "gamma_range": [
+            0.8,
+            1.2
+        ],
+        "do_additive_brightness": true,
+        "additive_brightness_mu": 0.0,
+        "additive_brightness_sigma": 0.1,
+        "speckle_noise": true
+    }
+}
