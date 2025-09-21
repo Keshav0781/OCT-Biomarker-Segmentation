@@ -1,0 +1,18 @@
+{
+    "task": "Task001_AMD",
+    "fold": 0,
+    "network": "2d",
+    "network_trainer": "nnUNetTrainerV2",
+    "batch_size": 8,
+    "patch_size": [512, 512],
+    "augmentation": false,
+    "inference_stages": 1,
+    "num_epochs": 1000,
+    "num_batches_per_epoch": 250,
+    "num_val_batches_per_epoch": 50,
+    "initial_lr": 0.0001,
+    "loss": "DC_and_CE_loss",
+    "classes": ["Background", "Drusen", "Scar", "Liquid"],
+    "training_samples": 795,
+    "validation_samples": 89
+}
