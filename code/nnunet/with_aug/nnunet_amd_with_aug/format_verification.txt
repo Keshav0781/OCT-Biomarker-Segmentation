@@ -1,0 +1,22 @@
+Data Format Verification
+=======================
+Dataset Configuration:
+- tensorImageSize: 2D
+- numTraining: 795
+- numTest: 89
+
+File Structure:
+- Training Images: 795 files
+- Training Labels: 795 files
+- Test Images: 89 files
+
+Format Properties:
+Training Images:
+- Size: (512, 512, 3)  # HxWxC format
+- Type: 32-bit float
+- Value Range: [0.0, 1.0]
+
+Training Labels:
+- Size: (512, 512)
+- Type: uint8
+- Classes: [0,1,2,3]  # Background, Drusen, Scar, Liquid
