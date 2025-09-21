@@ -1,0 +1,140 @@
+{
+    "dataset_name": "Task001_AMD",
+    "plans_name": "nnUNetPlans",
+    "plans_version": "2.1",
+    "original_median_spacing_after_transp": [
+        1.0,
+        1.0
+    ],
+    "original_size_after_transp": [
+        512,
+        512
+    ],
+    "image_reader_writer": "SimpleITKIO",
+    "normalization_schemes": {
+        "0": "RGB"
+    },
+    "base_num_features": 32,
+    "use_mask_for_norm": {
+        "0": false
+    },
+    "keep_only_largest_region": false,
+    "min_region_size_per_class": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "min_size_per_class": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "preprocessed_name": "preprocessed_2D",
+    "batch_size": 8,
+    "patch_size": [
+        [
+            512,
+            512
+        ]
+    ],
+    "median_image_size_in_voxels": [
+        512.0,
+        512.0
+    ],
+    "max_numpool": 5,
+    "pool_op_kernel_sizes": [
+        [
+            2,
+            2
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            2,
+            2
+        ]
+    ],
+    "conv_kernel_sizes": [
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            3
+        ]
+    ],
+    "stages": 5,
+    "GPU_memory": "12GB",
+    "num_classes": 4,
+    "modalities": {
+        "0": "OCT"
+    },
+    "training_cases": 795,
+    "test_cases": 89,
+    "data_augmentation": {
+        "enabled": true,
+        "params": {
+            "do_elastic": true,
+            "elastic_deform_alpha": [
+                0.0,
+                900.0
+            ],
+            "elastic_deform_sigma": [
+                9.0,
+                13.0
+            ],
+            "rotation_range": [
+                -30.0,
+                30.0
+            ],
+            "do_scale": true,
+            "scale_range": [
+                0.85,
+                1.15
+            ],
+            "do_mirror": true,
+            "mirror_axes": [
+                0,
+                1
+            ],
+            "do_additive_brightness": true,
+            "additive_brightness_range": [
+                -0.1,
+                0.1
+            ],
+            "gamma_range": [
+                0.5,
+                1.6
+            ]
+        }
+    }
+}
