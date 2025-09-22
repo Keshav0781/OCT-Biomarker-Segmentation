@@ -1,9 +1,15 @@
 # OCT Biomarker Segmentation
 
 This repository contains code, results, and figures for my Master’s thesis:  
-**“Segmentation of Retinal Biomarkers in OCT Scans using U-Net Variants and nnU-Net”**  
+**“Segmentation of Retinal Biomarkers in OCT Scans using U-Net Variants and nnU-Net”**
 
-The work covers **Age-related Macular Degeneration (AMD)** and **Macular Hole**, comparing deep learning models for accurate segmentation of retinal biomarkers.
+It covers segmentation of **Age-related Macular Degeneration (AMD)** and **Macular Hole** OCT scans using:  
+- **U-Net family models** (U-Net, U-Net++, Attention U-Net, Deep ResU-Net)  
+- **nnU-Net framework** (automated preprocessing & training)  
+
+> ⚠️ Note: As part of the thesis, I also explored **Segment Anything Model (SAM)** with **LoRA-based fine-tuning**.  
+> Since that represents a different methodology, it will be provided in a **separate repository**.  
+> This repository focuses only on **U-Net family + nnU-Net** methods.
 
 
 
@@ -237,5 +243,6 @@ If you use this code or results, please cite:
 
 > Keshav Jha, *Segmentation of Retinal Biomarkers in OCT Scans using Deep Learning*,  
 > MSc Thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, 2025.
+
 
 
