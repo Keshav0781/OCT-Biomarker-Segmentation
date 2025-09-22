@@ -99,4 +99,46 @@ We implemented multiple encoder–decoder segmentation architectures (U-Net fami
 - **Epochs:** up to 100 with early stopping (patience 5).  
 - **Augmentation:** Random flips, rotations, brightness/contrast, random crops.  
 
+## Results
+
+This section summarizes quantitative results (Mean IoU and Mean Dice) reported in the thesis (Table 5.1 for AMD, Table 5.3 for Macular Hole). Full numeric CSVs are in `results/`.
+
+### AMD — Model performance (Table 5.1)
+| Model | Mean IoU (no aug) | Mean Dice (no aug) | Mean IoU (with aug) | Mean Dice (with aug) |
+|---|---:|---:|---:|---:|
+| U-Net | 0.7178 | 0.7695 | 0.7417 | 0.7992 |
+| U-Net++ | 0.6757 | 0.7289 | 0.7017 | 0.7565 |
+| Attention U-Net | 0.6679 | 0.7218 | 0.6904 | 0.7456 |
+| Deep ResU-Net | 0.6960 | 0.7553 | 0.7161 | 0.7704 |
+| nnU-Net | 0.7755 | 0.8321 | 0.7988 | 0.8543 |
+
+> Download CSV: [results/amd/model_performance.csv](results/amd/model_performance.csv)
+
+**Representative visuals**  
+![AMD training curves](figures/amd/training_curves_amd.png)  
+![AMD segmentation examples](figures/amd/segmentation_visuals_amd.png)
+
+---
+
+### Macular Hole — Model performance (Table 5.3)
+| Model | Mean IoU (no aug) | Mean Dice (no aug) | Mean IoU (with aug) | Mean Dice (with aug) |
+|---|---:|---:|---:|---:|
+| U-Net | 0.7967 | 0.8592 | 0.8250 | 0.8759 |
+| U-Net++ | 0.7204 | 0.8179 | 0.7425 | 0.8389 |
+| Attention U-Net | 0.8088 | 0.8782 | 0.8324 | 0.8983 |
+| Deep ResU-Net | 0.7567 | 0.8349 | 0.7802 | 0.8546 |
+| nnU-Net | 0.8188 | 0.8892 | 0.8421 | 0.9088 |
+
+> Download CSV: [results/macular_hole/model_performance.csv](results/macular_hole/model_performance.csv)
+
+**Representative visuals**  
+![MH training curves](figures/macular_hole/training_curves_mh.png)  
+![MH segmentation examples](figures/macular_hole/segmentation_visuals_mh.png)
+
+---
+
+**Notes**
+- The CSVs include the exact numbers reported in the thesis (Table 5.1 and Table 5.3).  
+- For full experimental details and additional per-fold metrics, see the thesis PDF in this repo.
+
 
