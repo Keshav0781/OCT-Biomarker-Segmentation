@@ -55,3 +55,48 @@ Images were standardized with intensity normalization and resized/cropped to fix
     </tr>
   </table>
 </div>
+
+## Methodology — Models & Architectures
+
+We implemented multiple encoder–decoder segmentation architectures (U-Net family) and evaluated an automated nnU-Net pipeline.
+
+<div>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="figures/models/u-net.png" alt="U-Net" width="380"/><br>
+        <b>U-Net</b>
+      </td>
+      <td align="center">
+        <img src="figures/models/unetpp.png" alt="U-Net++" width="380"/><br>
+        <b>U-Net++</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="figures/models/attention_unet.png" alt="Attention U-Net" width="380"/><br>
+        <b>Attention U-Net</b>
+      </td>
+      <td align="center">
+        <img src="figures/models/Deep_Res.png" alt="Deep ResU-Net" width="380"/><br>
+        <b>Deep ResU-Net</b>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="figures/models/nnUnet.png" alt="nnU-Net pipeline" width="760"/><br>
+        <b>nnU-Net pipeline (automated preprocessing & training)</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Training summary (short)
+- **Input size:** 512 × 512 (resampled/cropped).  
+- **Loss:** Cross-entropy / Dice combo (as used in experiments).  
+- **Optimizer:** Adam, lr = 1e-4 (ReduceLROnPlateau).  
+- **Batch size:** 32.  
+- **Epochs:** up to 100 with early stopping (patience 5).  
+- **Augmentation:** Random flips, rotations, brightness/contrast, random crops.  
+
+
