@@ -1,3 +1,12 @@
+# OCT Biomarker Segmentation
+
+This repository contains code, results, and figures for my Master’s thesis:  
+**“Segmentation of Retinal Biomarkers in OCT Scans using U-Net Variants and nnU-Net”**  
+
+The work covers **Age-related Macular Degeneration (AMD)** and **Macular Hole**, comparing deep learning models for accurate segmentation of retinal biomarkers.
+
+
+
 ## Motivation
 
 Age-related Macular Degeneration (AMD) and Macular Hole are leading causes of vision loss.  
@@ -221,4 +230,5 @@ This work demonstrated end-to-end biomarker segmentation in OCT scans for **AMD*
 - Extend to **other retinal diseases** and multimodal imaging.
 - Explore **SAM-based fine-tuning** (LoRA adapters) in a dedicated repository.
 - Deploy models into a clinical decision-support prototype.
+
 
