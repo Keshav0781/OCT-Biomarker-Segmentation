@@ -187,3 +187,21 @@ python code/unet/amd/no_aug/unet.py \
 nnUNet_train 2d nnUNetTrainerV2 Task001_AMD 0
 ```
 
+### Inference / Demo
+
+To quickly test a trained model, you can use the demo notebook provided:
+
+1. Open [`notebooks/demo_inference.ipynb`](notebooks/demo_inference.ipynb).
+2. Place a sample OCT image in `data/sample_images/`.
+3. Update the checkpoint path inside the notebook (e.g., `models/unet/amd/with_aug/unet_checkpoint.pth`).
+4. Run all cells to visualize predictions vs. ground truth.
+
+Example command-line inference (if using a script instead of notebook):
+
+```bash
+python code/unet/amd/with_aug/unet_aug.py \
+  --mode inference \
+  --checkpoint models/unet/amd/with_aug/unet_checkpoint.pth \
+  --input data/sample_images/sample_oct.png \
+  --output results/inference/
+```
