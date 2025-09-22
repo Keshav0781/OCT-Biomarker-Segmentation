@@ -232,4 +232,10 @@ This work demonstrated end-to-end biomarker segmentation in OCT scans for **AMD*
 - Deploy models into a clinical decision-support prototype.
 
 
+## Citation
+If you use this code or results, please cite:
+
+> Keshav Jha, *Segmentation of Retinal Biomarkers in OCT Scans using Deep Learning*,  
+> MSc Thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, 2025.
+
 
