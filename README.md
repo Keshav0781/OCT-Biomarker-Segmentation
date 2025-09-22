@@ -205,3 +205,20 @@ python code/unet/amd/with_aug/unet_aug.py \
   --input data/sample_images/sample_oct.png \
   --output results/inference/
 ```
+## Conclusion & Future Work
+
+This work demonstrated end-to-end biomarker segmentation in OCT scans for **AMD** and **Macular Hole**, comparing multiple U-Net variants and the automated nnU-Net framework. Key findings:
+
+- **nnU-Net** achieved the highest Dice/IoU across both datasets.
+- **Data augmentation** consistently improved generalization performance.
+- **Attention U-Net** and **Deep ResU-Net** showed competitive results but required careful hyperparameter tuning.
+
+### Limitations
+- Large annotated datasets are required for robust training.
+- Model checkpoints are not included in this repo due to size restrictions.
+
+### Future Work
+- Extend to **other retinal diseases** and multimodal imaging.
+- Explore **SAM-based fine-tuning** (LoRA adapters) in a dedicated repository.
+- Deploy models into a clinical decision-support prototype.
+
