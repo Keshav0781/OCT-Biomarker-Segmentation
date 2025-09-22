@@ -141,4 +141,20 @@ This section summarizes quantitative results (Mean IoU and Mean Dice) reported i
 - The CSVs include the exact numbers reported in the thesis (Table 5.1 and Table 5.3).  
 - For full experimental details and additional per-fold metrics, see the thesis PDF in this repo.
 
+## How to Run / Reproduce
 
+### Requirements
+- Python 3.8+
+- PyTorch ≥ 1.10
+- torchvision
+- nibabel (for `.nii.gz` OCT volumes)
+- matplotlib, numpy, scikit-learn
+
+### Installation
+Clone this repository and install dependencies:
+
+```bash
+git clone https://github.com/Keshav0781/OCT-Biomarker-Segmentation.git
+cd OCT-Biomarker-Segmentation
+pip install -r requirements.txt
+```
