@@ -112,7 +112,7 @@ We implemented multiple encoder–decoder segmentation architectures (U-Net fami
 
 This section summarizes quantitative results (Mean IoU and Mean Dice) reported in the thesis (Table 5.1 for AMD, Table 5.3 for Macular Hole). Full numeric CSVs are in `results/`.
 
-### AMD — Model performance (Table 5.1)
+### AMD — Model performance 
 | Model | Mean IoU (no aug) | Mean Dice (no aug) | Mean IoU (with aug) | Mean Dice (with aug) |
 |---|---:|---:|---:|---:|
 | U-Net | 0.7178 | 0.7695 | 0.7417 | 0.7992 |
@@ -129,7 +129,7 @@ This section summarizes quantitative results (Mean IoU and Mean Dice) reported i
 
 ---
 
-### Macular Hole — Model performance (Table 5.3)
+### Macular Hole — Model performance 
 | Model | Mean IoU (no aug) | Mean Dice (no aug) | Mean IoU (with aug) | Mean Dice (with aug) |
 |---|---:|---:|---:|---:|
 | U-Net | 0.7967 | 0.8592 | 0.8250 | 0.8759 |
@@ -230,5 +230,6 @@ This work demonstrated end-to-end biomarker segmentation in OCT scans for **AMD*
 - Extend to **other retinal diseases** and multimodal imaging.
 - Explore **SAM-based fine-tuning** (LoRA adapters) in a dedicated repository.
 - Deploy models into a clinical decision-support prototype.
+
 
 
