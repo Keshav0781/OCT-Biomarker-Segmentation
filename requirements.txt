@@ -1,0 +1,13 @@
+torch>=1.10.0
+torchvision>=0.11.0
+numpy>=1.19.0
+matplotlib>=3.2.0
+scikit-learn>=0.24.0
+nibabel>=3.2.0
+pillow>=8.0.0
+tqdm>=4.50.0
+opencv-python>=4.5.0
+pandas>=1.1.0
+jupyter
+albumentations>=1.0.0
+nnunet  # optional: only required for nnU-Net experiments
