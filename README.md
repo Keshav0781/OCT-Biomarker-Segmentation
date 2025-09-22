@@ -158,3 +158,32 @@ git clone https://github.com/Keshav0781/OCT-Biomarker-Segmentation.git
 cd OCT-Biomarker-Segmentation
 pip install -r requirements.txt
 ```
+### Training
+
+This repository contains training scripts for the U-Net family (U-Net, U-Net++, Attention U-Net, Deep ResU-Net) and nnU-Net.
+
+#### Example — Train U-Net on AMD (with augmentation)
+```bash
+python code/unet/amd/with_aug/unet_aug.py \
+  --data_dir data/ \
+  --train_dir data/imagesTr/ \
+  --labels_dir data/labelsTr/ \
+  --epochs 100 \
+  --batch_size 32 \
+  --lr 1e-4 \
+  --save_dir models/unet/amd/with_aug
+```
+#### Example — Train U-Net (no augmentation)
+```bash
+python code/unet/amd/no_aug/unet.py \
+  --data_dir data/ \
+  --epochs 100 \
+  --batch_size 32 \
+  --lr 1e-4 \
+  --save_dir models/unet/amd/no_aug
+```
+#### Example — Train nnU-Net
+```bash
+nnUNet_train 2d nnUNetTrainerV2 Task001_AMD 0
+```
+
