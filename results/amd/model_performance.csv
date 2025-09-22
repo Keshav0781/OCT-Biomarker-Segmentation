@@ -1,0 +1,6 @@
+Model,Mean_IoU_No_Aug,Mean_Dice_No_Aug,Mean_IoU_Aug,Mean_Dice_Aug
+U-Net,0.7178,0.7695,0.7417,0.7992
+U-Net++,0.6757,0.7289,0.7017,0.7565
+Attention U-Net,0.6679,0.7218,0.6904,0.7456
+Deep ResU-Net,0.6960,0.7553,0.7161,0.7704
+nnU-Net,0.7755,0.8321,0.7988,0.8543
